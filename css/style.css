@@ -86,18 +86,21 @@ header {
 }
 
 .snippets,
-.clipboard {
+.clipboard,
+.download {
   margin-top: 15rem;
 }
 
 .about-snippets,
-.about-clipboard {
+.about-clipboard,
+.about-download {
   max-width: 50%;
 }
 
 .snippet-heading,
 .clipboard-heading,
-.workflow-heading {
+.workflow-heading,
+.download-heading {
   font-size: 3.5rem;
   color: var(--color-neautral-one);
   padding-bottom: 2rem;
@@ -105,7 +108,8 @@ header {
 
 .snippet-paragraph,
 .clipboard-paragraph,
-.workflow-paragraph {
+.workflow-paragraph,
+.download-paragraph {
   font-size: 1.7rem;
   color: var(--color-neautral-two);
   line-height: 1.8;
@@ -142,7 +146,7 @@ header {
 }
 
 .workflow {
-    margin-top: 8rem;
+  margin-top: 8rem;
 }
 
 .workflow-paragraph {
@@ -170,10 +174,51 @@ header {
   font-size: 1.5rem;
 }
 
-.featured {
-    margin-top: 15rem;
+.featured,
+.footer {
+  margin-top: 15rem;
 }
 
 .wrapper {
-    max-width: 80%;
+  max-width: 80%;
+}
+
+.download-paragraph {
+  padding-bottom: 0;
+}
+
+.footer {
+  background-color: hsla(201, 11%, 66%,0.1);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-info,
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 30rem;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.contact {
+  gap: 12rem;
+}
+
+.contact-part div {
+  font-size: 1.7rem;
+  color: var(--color-neautral-one);
+  padding-bottom: 2rem;
+}
+
+.social {
+    font-size: 2.5rem;
+}
+
+.mr {
+    margin-right: 1.5rem;
 }
