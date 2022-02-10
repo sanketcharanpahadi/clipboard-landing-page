@@ -1,0 +1,179 @@
+/* 
+
+margins: 1 | 15 | 10
+
+padding: 13 | 6 | 2 | 1.3 | 3.5 | 7
+
+font-size: 4.15| 1.8 | 3.5 | 1.7 | 2.5 | 1.4 | 1.9 | 1.5
+
+border-radius: 3rem
+
+line-height: 1.8 | 2 |
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+:root {
+  --color-primary-one: hsl(171, 66%, 44%);
+  --color-primary-two: hsl(233, 100%, 69%);
+  --color-neautral-one: hsl(210, 10%, 33%);
+  --color-neautral-two: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.container {
+  padding-top: 13rem;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 19%;
+}
+
+.heading {
+  font-size: 4.15rem;
+  padding-top: 6rem;
+  color: var(--color-neautral-one);
+}
+
+.title {
+  font-size: 1.9rem;
+  padding-top: 2rem;
+  color: var(--color-neautral-two);
+}
+
+.btn {
+  padding-top: 6rem;
+}
+
+.btn-primary {
+  padding: 1.3rem 3.5rem;
+  font-size: 1.8rem;
+  border-radius: 3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-ios {
+  background-color: var(--color-primary-one);
+  border: 1px solid var(--color-primary-one);
+}
+
+.btn-mac {
+  background-color: var(--color-primary-two);
+  border: 1px solid var(--color-primary-two);
+  margin-left: 1rem;
+}
+
+.snippets,
+.clipboard {
+  margin-top: 15rem;
+}
+
+.about-snippets,
+.about-clipboard {
+  max-width: 50%;
+}
+
+.snippet-heading,
+.clipboard-heading,
+.workflow-heading {
+  font-size: 3.5rem;
+  color: var(--color-neautral-one);
+  padding-bottom: 2rem;
+}
+
+.snippet-paragraph,
+.clipboard-paragraph,
+.workflow-paragraph {
+  font-size: 1.7rem;
+  color: var(--color-neautral-two);
+  line-height: 1.8;
+  padding-bottom: 7rem;
+}
+
+.features {
+  gap: 6rem;
+}
+
+.computer-img {
+  width: 65%;
+  position: relative;
+  left: -3%;
+}
+
+.feature {
+  max-width: 60%;
+  padding-bottom: 6rem;
+}
+
+.feature h3,
+.workflow-feature h3 {
+  font-size: 2.5rem;
+  color: var(--color-neautral-one);
+  padding-bottom: 1.3rem;
+}
+
+.feature p,
+.workflow-feature p {
+  font-size: 1.4rem;
+  color: var(--color-neautral-two);
+  line-height: 2;
+}
+
+.workflow {
+    margin-top: 8rem;
+}
+
+.workflow-paragraph {
+  font-size: 1.85rem;
+}
+
+.workflow-features {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.workflow-feature img {
+  width: 40px;
+  padding-bottom: 3.5rem;
+}
+
+.workflow-feature h3 {
+  padding-bottom: 1.5rem;
+  font-size: 2.1rem;
+}
+
+.workflow-feature p {
+  max-width: 330px;
+  font-size: 1.5rem;
+}
+
+.featured {
+    margin-top: 15rem;
+}
+
+.wrapper {
+    max-width: 80%;
+}
