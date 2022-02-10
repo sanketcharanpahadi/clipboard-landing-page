@@ -188,9 +188,9 @@ header {
 }
 
 .footer {
-  background-color: hsla(201, 11%, 66%,0.1);
+  background-color: hsla(201, 11%, 66%, 0.1);
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .footer-info,
@@ -201,12 +201,12 @@ header {
 }
 
 .footer-logo {
-  width: 50px;
-  height: 50px;
+  width: 54px;
+  height: 52px;
 }
 
 .contact {
-  gap: 12rem;
+  gap: 10rem;
 }
 
 .contact-part div {
@@ -216,9 +216,18 @@ header {
 }
 
 .social {
-    font-size: 2.5rem;
+  margin-top: 1rem;
+  font-size: 2.5rem;
 }
 
 .mr {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
