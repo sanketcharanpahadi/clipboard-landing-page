@@ -324,7 +324,36 @@ header {
     gap: 6rem;
   }
 
-  .download-paragraph {  /*check for 1.76rem */
+  .download-paragraph {
     font-size: 1.76rem;
+  }
+
+  .btn-m {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-info,
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0rem;
+  }
+
+  .contact-part div {
+    padding-bottom: 3rem;
+  }
+
+  .contact-part div:last-child {
+    margin-right: 0;
+  }
+
+  .footer-logo {
+    margin-bottom: 3rem;
+  }
+
+  .mr {
+    margin-right: 3rem;
   }
 }
