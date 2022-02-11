@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://sanketcharanpahadi.github.io/clipboard-landing-page/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-using-desktop-first-approach-sj8_uORRB](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-using-desktop-first-approach-sj8_uORRB)
+- Live Site URL: [https://sanketcharanpahadi.github.io/clipboard-landing-page/](https://sanketcharanpahadi.github.io/clipboard-landing-page/)
 
 ## My process
 
@@ -45,5 +45,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
+
 - Frontend Mentor - [@sanketcharanpahadi](https://www.frontendmentor.io/profile/sanketcharanpahadi)
 <!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
