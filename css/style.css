@@ -79,10 +79,18 @@ header {
   border: 1px solid var(--color-primary-one);
 }
 
+.btn-ios:hover {
+  background-color: hsla(171, 52%, 58%, 1);
+}
+
 .btn-mac {
   background-color: var(--color-primary-two);
   border: 1px solid var(--color-primary-two);
   margin-left: 1rem;
+}
+
+.btn-mac:hover {
+  background: hsla(232, 100%, 77%, 1);
 }
 
 .snippets,
@@ -214,6 +222,11 @@ header {
   font-size: 1.7rem;
   color: var(--color-neautral-one);
   padding-bottom: 2rem;
+  cursor: pointer;
+}
+
+.contact-part div:hover {
+  color: hsla(171, 52%, 58%, 1);
 }
 
 .social {
@@ -223,6 +236,11 @@ header {
 
 .mr {
   margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.mr:hover {
+  color: hsla(171, 52%, 58%, 1);
 }
 
 .attribution {
@@ -235,7 +253,7 @@ header {
 
 /* Media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 902px) {
   header {
     background-image: url("../images/bg-header-mobile.png");
   }
