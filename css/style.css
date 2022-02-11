@@ -129,6 +129,7 @@ header {
 .feature {
   max-width: 60%;
   padding-bottom: 6rem;
+  margin: 0 auto;
 }
 
 .feature h3,
@@ -230,4 +231,100 @@ header {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  header {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .container,
+  .about-snippets,
+  .about-clipboard,
+  .about-download,
+  .feature,
+  .workflow-feature p {
+    max-width: 90%;
+  }
+
+  .heading {
+    font-size: 3.2rem;
+    font-weight: 900;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .btn-primary {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-mac {
+    margin-left: 0;
+  }
+
+  .snippet-heading,
+  .clipboard-heading,
+  .workflow-heading,
+  .download-heading {
+    font-size: 3rem;
+  }
+
+  .snippet-paragraph,
+  .clipboard-paragraph,
+  .workflow-paragraph,
+  .download-paragraph {
+    font-size: 1.75rem;
+  }
+
+  .feature {
+    margin: 0 auto;
+  }
+
+  .computer-img {
+    position: static;
+  }
+
+  .feature h3,
+  .workflow-feature h3 {
+    text-align: center;
+  }
+
+  .feature p,
+  .workflow-feature p {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .workflow-feature p {
+    margin: 0 auto;
+  }
+
+  .device-img {
+    width: 100%;
+  }
+
+  .workflow-paragraph {
+    font-size: 1.9rem;
+  }
+
+  .workflow-features {
+    flex-direction: column;
+  }
+
+  .wrapper {
+    gap: 6rem;
+  }
+
+  .download-paragraph {  /*check for 1.76rem */
+    font-size: 1.76rem;
+  }
 }
